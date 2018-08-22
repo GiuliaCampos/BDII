@@ -1,0 +1,63 @@
+html, body, .capa{
+	height: 100%;
+	overflow: auto;
+}
+
+body{
+	background: linear-gradient(50deg, #FF4500, #00FF7F);
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+	overflow-x: hidden;
+}
+
+.img-logo{
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('imagens/tree.png') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+nav.navbar-transparente{
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a, footer .nav a{
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover{
+	color: black;
+	background: none;
+}
+
+.capa{
+	display: table;
+	width: 100%;
+	position: absolute;
+	background-image: url('imagens/legumes-capa.jpg');
+	background-size: cover;
+}
+
+.texto-capa{
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+h1{
+	font-size: 100px;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	font-family: 'Indie Flower', cursive;
+	color: black;
+}
