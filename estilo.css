@@ -4,10 +4,11 @@ html, body, .capa{
 }
 
 body{
-	background: linear-gradient(50deg, #FF4500, #00FF7F);
+	/*background: linear-gradient(50deg, #FF4500, #98FB98);*/
 	background-attachment: fixed;
 	font-family: Helvetica, Arial, sans-serif;
 	overflow-x: hidden;
+	background: white;
 }
 
 .img-logo{
@@ -21,8 +22,10 @@ body{
 
 nav.navbar-transparente{
 	padding: 15px 0px;
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(255,255,255, 1);
 	border: none;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 20px;
 }
 
 .navbar-brand{
@@ -30,14 +33,17 @@ nav.navbar-transparente{
 }
 
 .navbar-inverse .navbar-nav>li>a, footer .nav a{
-	color: white;
+	color: #32CD32;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover{
-	color: black;
+	color: #008000;
 	background: none;
 }
 
+
+
+/*
 .capa{
 	display: table;
 	width: 100%;
@@ -45,19 +51,50 @@ nav.navbar-transparente{
 	background-image: url('imagens/legumes-capa.jpg');
 	background-size: cover;
 }
-
+*/
 .texto-capa{
 	text-align: center;
 	color: white;
 	display: table-cell;
 	vertical-align: middle;
+	width: 100%;
 }
+
+#projeto{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("imagens/legumes-capa.jpg");
+
+    /* Set a specific height */
+    height: 100%;
+    width: 100%;
+
+    position: absolute; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallax h1{
+	margin-top: 30vh;
+	text-align: center;
+} 
 
 h1{
 	font-size: 100px;
 	font-weight: 900;
 	letter-spacing: -0.05em;
 	margin-bottom: 50px;
-	font-family: 'Indie Flower', cursive;
-	color: black;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: 5px 2px black;
+	text-align: center;
 }
