@@ -41,8 +41,6 @@ nav.navbar-transparente{
 	background: none;
 }
 
-
-
 /*
 .capa{
 	display: table;
@@ -64,29 +62,40 @@ nav.navbar-transparente{
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-
+/*
 .parallax { 
-    /* The image used */
+
     background-image: url("imagens/legumes-capa.jpg");
 
-    /* Set a specific height */
+  
     height: 100%;
     width: 100%;
 
     position: absolute; 
 
-    /* Create the parallax scrolling effect */
+   
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
-
-.parallax h1{
+*/
+#parallaxBar h1{
 	margin-top: 30vh;
 	text-align: center;
 } 
+
+#parallaxBar{
+    height:750px;
+    background-color:#004c82;
+    background: url(imagens/legumes-capa.jpg) 50% 0 fixed;
+    position: relative; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 h1{
 	font-size: 100px;
@@ -97,4 +106,25 @@ h1{
 	color: white;
 	text-shadow: 5px 2px black;
 	text-align: center;
+}
+
+h2{
+	font-size: 50px;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	font-family: 'Paytone One', sans-serif;
+	color: black;
+	/*text-shadow: 5px 2px black;*/
+	text-align: center;
+}
+
+h3{
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	font-family: 'Montserrat', sans-serif;
+	color: #8B8989;
+	/*text-shadow: 5px 2px black;*/
+	text-align: center;	
 }
