@@ -33,11 +33,13 @@ nav.navbar-transparente{
 }
 
 .navbar-inverse .navbar-nav>li>a, footer .nav a{
-	color: #32CD32;
+	color: #669D1C;
+	/*color: #32CD32;*/
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover{
-	color: #008000;
+	/*color: #008000;*/
+	color: #B22222;
 	background: none;
 }
 
@@ -73,6 +75,17 @@ nav.navbar-transparente{
 	color: white;
 	text-shadow: 1.5px 1.5px black;
 	text-align: center;	
+}
+
+.card{
+	 background-color: #f0f0f0;
+}
+.card .card-title{
+	color: #7c9c37;
+}
+.card .card-text{
+	font-size: 14px;
+	border:none;
 }
 
 #projeto{
@@ -131,8 +144,8 @@ h2{
 	letter-spacing: -0.05em;
 	margin-bottom: 50px;
 	font-family: 'Paytone One', sans-serif;
-	color: black;
-	/*text-shadow: 5px 2px black;*/
+	color: #B22222;
+	text-shadow: 5px 2px black;
 	text-align: center;
 }
 
@@ -141,7 +154,8 @@ h3{
 	letter-spacing: -0.05em;
 	margin-bottom: 50px;
 	font-family: 'Montserrat', sans-serif;
-	color: #8B8989;
+	/*color: #8B8989;*/
+	color: #89726E;
 	/*text-shadow: 5px 2px black;*/
 	text-align: center;	
 }
