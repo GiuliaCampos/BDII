@@ -6,7 +6,7 @@
 	<title>Raizes do Pontal</title>
 	<link rel="icon" href='./assets/imagens/tree.png'>
 
-	<link href=<?= base_url("assets/css/bootstrap.min.css")?> rel="stylesheet">
+	<link href="<?= base_url("assets/css/bootstrap.min.css")?>" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="<?= base_url("assets/css/estilo.css")?>">
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Paytone+One" rel="stylesheet">
@@ -39,10 +39,10 @@
 
 			<div class="collapse navbar-collapse" id="barra-navegacao">
           		<ul class="nav navbar-nav navbar-right">
-            		<li><a href="receitas.php">Receitas</a></li>
-            		<li><a href="sugestao.php">Sugestões</a></li>
-            		<li><a href="comprar.php">Compre</a></li>
-            		<li><a href="login.php">Entrar</a></li>
+            		<li><a href="<?php echo base_url('Receita/')?>">Receitas</a></li>
+            		<li><a href="<?php echo base_url('Sugestao/')?>">Sugestões</a></li>
+            		<li><a href="<?php echo base_url('Comprar/')?>">Compre</a></li>
+            		<li><a href="<?php echo base_url('Login/')?>">Entrar</a></li>
           		</ul>
         	</div>
 		</div>

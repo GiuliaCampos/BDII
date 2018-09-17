@@ -4,9 +4,9 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Raizes do Pontal - Receitas</title>
-	<link rel="icon" href="imagens/tree.png">
+	<link rel="icon" href='./assets/imagens/tree.png'>
 
-	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="<?= base_url("assets/css/bootstrap.min.css")?>" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Paytone+One" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -16,7 +16,7 @@
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="<?= base_url("assets/css/estilo.css")?>">
 
 </head>
 <body><!-- <body style="height: 500vh"> -->
