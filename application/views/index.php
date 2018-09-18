@@ -32,7 +32,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="index.html" class="navbar-brand">
+				<a href="#" class="navbar-brand">
 					<span class="img-logo">Raízes do Pontal</span>
 				</a>				
 			</div> <!--Reponsivo -->
